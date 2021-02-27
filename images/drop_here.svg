@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="114" height="87" viewBox="0 0 114 87">
+  <g id="drop_here" transform="translate(-628 -86)">
+    <path id="패스_2" data-name="패스 2" d="M10,0h94a10,10,0,0,1,10,10V77a10,10,0,0,1-10,10H10A10,10,0,0,1,0,77V10A10,10,0,0,1,10,0Z" transform="translate(628 86)" fill="#89735f"/>
+    <text id="DROP_HERE-2" data-name="DROP HERE" transform="translate(652 133)" fill="#fff" font-size="12" font-family="Poppins"><tspan x="0" y="0">DROP HERE</tspan></text>
+  </g>
+</svg>

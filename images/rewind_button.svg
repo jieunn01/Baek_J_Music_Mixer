@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23">
+  <g id="rewind_button" transform="translate(-692 -179)">
+    <rect id="사각형_23" data-name="사각형 23" width="23" height="23" rx="4" transform="translate(692 179)" fill="#89735f"/>
+    <rect id="사각형_26" data-name="사각형 26" width="2" height="9" transform="translate(709 186)" fill="#fff"/>
+    <path id="다각형_1" data-name="다각형 1" d="M4.5,0,9,8H0Z" transform="translate(694.5 195) rotate(-90)" fill="#fff"/>
+    <path id="다각형_2" data-name="다각형 2" d="M4.5,0,9,8H0Z" transform="translate(699.5 195) rotate(-90)" fill="#fff"/>
+  </g>
+</svg>

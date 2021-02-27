@@ -24,7 +24,10 @@ I also took inspiration from MUJI CD player and headset from BEATS. Both were lo
 
 [BEATS headset](https://www.pinterest.co.kr/search/pins/?q=beats%20headset%20beige&rs=typed&term_meta[]=beats%7Ctyped&term_meta[]=headset%7Ctyped&term_meta[]=beige%7Ctyped)
 
-[Overall wall concept](/images/wall.jpg)
+### Fonts used
+
+[Abril-title](https://fonts.google.com/specimen/Abril+Fatface?query=Abril&preview.text_type=custom)
+[Poppins-paragraph, inside box](https://fonts.google.com/specimen/Poppins?query=poppin&preview.text_type=custom&selection.family=Abril+Fatface|Poppins:wght@300)
 
 ### Requirements tools for the creation
 
