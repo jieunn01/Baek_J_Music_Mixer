@@ -1,2 +1,6 @@
+(() => {
+	console.log('fired');
 
+	
+})()
 
