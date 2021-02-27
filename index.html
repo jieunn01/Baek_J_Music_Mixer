@@ -4,58 +4,94 @@
 		<meta charset="UTF-8">
 		<title>Music Mixer</title>
 		<!-- link to reset frist!! -->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@300&display=swap" rel="stylesheet">
 		<link href="css/reset.css" rel="stylesheet" type="text/css">
 		<link href="css/main.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>
 		<!-- Content goes here -->
-
-		<section id="main">
-			<div id="upperNav">
-				<section id="game_reset">
-					<a href="#">
-						<img src="#" alt="reset icon">
-					</a>	
-				</section>
-				
-				<div class="upperTracks">
-					<img src="" alt="song icon 1">
-					<img src="" alt="song icon 2">
-					<img src="" alt="song icon 3">
-					<img src="" alt="song icon 4">
-					<img src="" alt="song icon 5">
-					<img src="" alt="song icon 6">
-					
-				</div>
-
-				<div id="center">
-					<div class="musicImage">
-						<img src="#" alt="center iamge">		
-					</div>
-
-					<div class="musicBox">
-						<div class="music__drop">
-							<div class="drop_box_con">
-								<audio id="#">
-								<source src="#" type="#">
-								</audio>
-							</div>
-
-							<div id="Buttons">
-								<img src="#" alt="mute button">
-								<img src="#" alt="exit button">
-							</div>
-							
-						</div>
-						
-					</div>
-					
-				</div>
-
-
+	<div id="container">
+		<div id="Content">
+		<div id="mainCenter">
+			<div id="message">
+				<p>
+				You can select the icons of various audio tracks and combine together at once in the music box. Try to listen variety matches and find the best interesting combination. The two container shows several icons that fits with audio and drag into the music box.
+				</p>
 			</div>
-			
-		</section>
+			<h2 id="title">MUSIC MIXER</h2>
+			<section id="mainImage">
+				<img src="#" alt="mainImage(cd player)">
+			</section>
+		</div>
+
+		<div id="dropzoneCon">
+			<div class="drop_zone">
+				<div id="dropzone">
+					<img src="images/drop_here.svg" alt="dropzone" class="dropzoneImage" class="dropzoneImage">
+						<div class="audioControlCon">
+						<img src="images/pause_button.svg" alt="pause" class="pause_button">
+                  		<img src="images/rewind_button.svg" alt="rewind" class="rewind_button">
+						</div>
+					<input type="range" min="1" max="100" value="50" class="slider">
+				</div>
+			</div>
+
+			<div class="drop_zone">
+				<div id="dropzone">
+					<img src="images/drop_here.svg" alt="dropzone" class="dropzoneImage" class="dropzoneImage">
+						<div class="audioControlCon">
+						<img src="images/pause_button.svg" alt="pause" class="pause_button">
+                  		<img src="images/rewind_button.svg" alt="rewind" class="rewind_button">
+						</div>
+					<input type="range" min="1" max="100" value="50" class="slider">
+				</div>
+			</div>
+
+			<div class="drop_zone">
+				<div id="dropzone">
+					<img src="images/drop_here.svg" alt="dropzone" class="dropzoneImage" class="dropzoneImage">
+						<div class="audioControlCon">
+						<img src="images/pause_button.svg" alt="pause" class="pause_button">
+                  		<img src="images/rewind_button.svg" alt="rewind" class="rewind_button">
+						</div>
+					<input type="range" min="1" max="100" value="50" class="slider">
+				</div>
+			</div>
+
+			<div class="drop_zone">
+				<div id="dropzone">
+					<img src="images/drop_here.svg" alt="dropzone" class="dropzoneImage" class="dropzoneImage">
+						<div class="audioControlCon">
+						<img src="images/pause_button.svg" alt="pause" class="pause_button">
+                  		<img src="images/rewind_button.svg" alt="rewind" class="rewind_button">
+						</div>
+					<input type="range" min="1" max="100" value="50" class="slider">
+				</div>
+			</div>
+		</div>
+
+		<div id="Icons">
+			<section id="icons_upper">
+				<img data-trackref="" src="#" alt="icon">
+				<img data-trackref="" src="#" alt="icon">
+				<img data-trackref=""src="#" alt="icon">
+				<img data-trackref="" src="#" alt="icon">
+				<img data-trackref="" src="#" alt="icon">
+				<img data-trackref="" src="#" alt="icon">
+			</section>
+
+			<section id="icons_bottom">
+				<img data-trackref="" src="#" alt="icon">
+				<img data-trackref="" src="#" alt="icon">
+				<img data-trackref="" src="#" alt="icon">
+				<img data-trackref="" src="#" alt="icon">
+				<img data-trackref="" src="#" alt="icon">
+				<img data-trackref="" src="#" alt="icon">
+			</section>
+		</div>
+	</div>
+	</div>
 		<script src="js/main.js"></script>
 	</body>
 </html>
