@@ -57,11 +57,10 @@
 #mainImage
 {
 	display: flex;
-	width: 334px;
-	height: 334px;
-	margin-left: 137px;
+	width: 400px;
+	height: 400px;
+	margin-left: 107px;
 	margin-top: 36px;
-	background-color: white;
 
 }
 
