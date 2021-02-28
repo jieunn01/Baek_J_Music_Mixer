@@ -29,6 +29,13 @@ I also took inspiration from MUJI CD player and headset from BEATS. Both were lo
 [Abril-title](https://fonts.google.com/specimen/Abril+Fatface?query=Abril&preview.text_type=custom)
 [Poppins-paragraph, inside box](https://fonts.google.com/specimen/Poppins?query=poppin&preview.text_type=custom&selection.family=Abril+Fatface|Poppins:wght@300)
 
+### Music select
+
+- Beats
+- Clap: for break tempo 
+- Instrument: music instrumental 
+- Vocal: for some voice
+
 ### Requirements tools for the creation
 
 - HTML
