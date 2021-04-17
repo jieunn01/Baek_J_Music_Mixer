@@ -64,28 +64,40 @@
 
 }
 
-#dropzoneCon
+.dropzoneCon
 {
-	width: 230px;
-	height: 750px;
+	width: 200px;
 	display: flex;
    flex-direction: column;
-   justify-content: center;
-   margin-left: 60px;
+
+   margin-left: 7%;
    margin-top: 40px;
-   justify-content: space-between;
+
+}
+.dropzone
+{
+	background-color: #89735F;
+	width: 140px;
+	height: 100px;
+	margin: 5px;
+	border-radius: 10px;
+}
+
+.dropzone img {
+	height: 100%;
+	margin-left: 15%;
 
 }
 .drop_zone
 {
 	width: 150px;
 	height: 170px;
+	margin-top: 20px;
 	background-color: #C9B4A2;
 	border-radius: 10px;
 	-webkit-box-shadow: 0 10px 6px -6px #777;
     -moz-box-shadow: 0 10px 6px -6px #777;
          box-shadow: 0 10px 6px -6px #777;
-	margin: 0 auto;
 }
 
 #dropzone input
@@ -104,8 +116,13 @@
 {
 	width: 30px;
 	height: 30px;
-	margin-left: 40px;
+	margin-left: 45px;
 
+}
+
+input
+{
+	margin-left: 10px;
 }
 
 .rewind_button
@@ -114,12 +131,15 @@
 	height: 30px;
 
 }
+.eachIcon 
+{
+	display: inline-block;
 
-#Icons
+}
+.Icons
 {
 	display: flex;
 	width: 470px;
-
 	flex-direction: column;
 	justify-content: center;
 	margin-top: 77px;
@@ -127,28 +147,14 @@
 	justify-content: space-between;
 }
 
-#Icons h2
+.Icons h2
 {
 	font-family: 'Abril Fatface', Arial, sans-serif;
 	font-size: 20px;
 }
-#icons_upper
-{
-	width: 470px;
-	height: 50%;
-	display: flex-wrap;
-	justify-content: space-between;
-}
-
-#icons_bottom
-{
-	width: 470px;
-	height: 50%;
-}
 
 .icon
 {
-	
-	width: 112px;
+	width: 100px;
 	height: 38%;
 }
