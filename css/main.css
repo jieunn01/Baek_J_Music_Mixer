@@ -112,25 +112,68 @@
 	height: 100px;
 }
 
-.pause_button
-{
-	width: 30px;
-	height: 30px;
-	margin-left: 45px;
-
-}
-
 input
 {
 	margin-left: 10px;
+
 }
 
-.rewind_button
+button
 {
+	border: none;
+	background-color: #C9B4A2;
+}
+
+.audioControlCon
+{
+	display: inline-block;
+	margin-left: 30%;
+}
+.pause_button
+{
+	background-image: url(../images/pause_button.svg);
+	background-size: cover;
 	width: 30px;
 	height: 30px;
-
 }
+.rewind_button
+{
+	background-image: url(../images/rewind_button.svg);
+	background-size: cover;
+	width: 30px;
+	height: 30px;
+}
+.slider {
+  -webkit-appearance: none;
+  width: 88%;
+  margin-top: 5px;
+  height: 10px;
+  border-radius: 5px;  
+  background: #F9EDCD;
+  outline: none;
+  opacity: 0.5;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%; 
+  background: #503400;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #503400;
+  cursor: pointer;
+}
+
 .eachIcon 
 {
 	display: inline-block;
