@@ -6,7 +6,7 @@ const iconContainer = document.querySelectorAll(".iconBox .eachIcon img"),
      removeIcon = document.querySelectorAll(".removeX");
     
 
-setInterval(playTrack, 10666);
+  setInterval(playTrack, 10666);
 
   function playTrack() {   
     let songs = document.querySelectorAll("audio");
