@@ -4,7 +4,7 @@
 
 ### Musical elements combination 
 
-Here is a interesting Soundbox for you!
+Here is an interesting Soundbox for you!
 
 This is a website for the music mixer that allows the dragging and dropping off several audio elements into the soundbox. Users can mix showing elements at once. Also they can collaborate on various audio pieces and experience new harmony what you selected.
 Remove icons for the changing audio elements and make the best combination.
