@@ -1,6 +1,6 @@
 ## Music Mixer
 
-<img src="images/main_cd.jpg" alt="main image" width="600px">
+<img src="images/main_cd.png" alt="main image" width="600px">
 
 ### Musical elements combination 
 
