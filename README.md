@@ -1,10 +1,10 @@
 ## Music Mixer
 
-<img src="images/main_cd.png" alt="main image" width="600px">
+<img src="images/main_cd.png" alt="main image" width="300px">
 
 ### Musical elements combination 
 
-Here is a interesting Soundbox that you like!
+Here is a interesting Soundbox for you!
 
 This is a website for the music mixer that allows the dragging and dropping off several audio elements into the soundbox. Users can mix showing elements at once. Also they can collaborate on various audio pieces and experience new harmony what you selected.
 Remove icons for the changing audio elements and make the best combination.
@@ -46,6 +46,10 @@ I also took inspiration from MUJI CD player and headset from BEATS. Both were lo
 - CSS3
 - Javascript
 - Markdown- readme
+
+### Author
+
+Baek jieun
 
 ### License
 
