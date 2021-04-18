@@ -2,7 +2,9 @@
 (() => {
 
 const iconContainer = document.querySelectorAll(".iconBox .eachIcon img"),
-	     dropZones = document.querySelectorAll(".drop_zone .dropzone");
+	   dropZones = document.querySelectorAll(".drop_zone .dropzone"),
+     removeIcon = document.querySelectorAll(".removeX");
+    
 
 setInterval(playTrack, 10666);
 
@@ -49,9 +51,20 @@ function dragStart(event) {
     this.querySelector("img").draggable = false;
   }
 
+  function removeImage() {
+    let track = this.parentNode.querySelector("audio");
+    track.parentNode.removeChild(track);
+    
+    let icon = this.parentNode.querySelector("img");
+    icon.draggable = true;
+
+    let iconBox = document.querySelectorAll(".iconBox .eachIcon");
+      iconBox[icon.dataset.index].appendChild(icon);
+  }
 
  iconContainer.forEach(icon => icon.addEventListener("dragstart", dragStart));
   dropZones.forEach(zone => zone.addEventListener("dragover", draggedOver));
-  dropZones.forEach(zone => zone.addEventListener("drop", musicDrop)); 
+  dropZones.forEach(zone => zone.addEventListener("drop", musicDrop));
+  removeIcon.forEach(x => x.addEventListener("click", removeImage));
 
 })();

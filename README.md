@@ -1,6 +1,10 @@
 ## Music Mixer
 
+<img src="images/main_cd.jpg" alt="main image" width="600px">
+
 ### Musical elements combination 
+
+Here is a interesting Soundbox that you like!
 
 This is a website for the music mixer that allows the dragging and dropping off several audio elements into the soundbox. Users can mix showing elements at once. Also they can collaborate on various audio pieces and experience new harmony what you selected.
 Remove icons for the changing audio elements and make the best combination.
@@ -11,7 +15,7 @@ Simply open the `index.html` in any modern web browser.
 
 ### Audio elements
 
-It divided into melody, voices, instrument, hand clap and beats.
+It divided into melody, voices, instrument, break clap and beats.
 Users can easily recognize audio with each icon.
 
 ### Inspiration
